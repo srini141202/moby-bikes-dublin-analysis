@@ -1,4 +1,4 @@
-# Moby Bikes Dublin — Data Analytics CA2
+# Moby Bikes Dublin — Data Analysis
 
 Exploratory data analysis and machine learning classification on the Moby Bikes Dublin e-bike fleet dataset (September 2020).
 
@@ -112,8 +112,8 @@ Top predictive features: `Latitude`, `Longitude`, `Battery`, `EBikeStateID`, `EB
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/srini141202/DA_CA2.git
-cd DA_CA2
+git clone https://github.com/srini141202/moby-bikes-dublin-analysis.git
+cd moby-bikes-dublin-analysis
 ```
 
 ### 2. Create a virtual environment (recommended)
@@ -137,7 +137,7 @@ pip install -r requirements.txt
 Download `moby-bikes-historical-data-092020.csv` from the Moby Bikes data export and place it in the `data/` folder:
 
 ```
-DA_CA2/
+moby-bikes-dublin-analysis/
 └── data/
     └── moby-bikes-historical-data-092020.csv
 ```
@@ -155,7 +155,7 @@ Run all cells top-to-bottom (`Kernel > Restart & Run All`).
 ## Repository Structure
 
 ```
-DA_CA2/
+moby-bikes-dublin-analysis/
 ├── main.ipynb                            # Main analysis notebook
 ├── requirements.txt                      # Python dependencies
 ├── .gitignore                            # Files excluded from git
